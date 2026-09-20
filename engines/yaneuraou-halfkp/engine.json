@@ -1,0 +1,28 @@
+{
+  "abi": "shogihome-wasm-engine/1",
+  "assetBaseURL": "https://<FIXME>/yaneuraou/20260904.c1b80eaa/halfkp/",
+  "module": "yaneuraou.halfkp.js",
+  "moduleFormat": "umd",
+  "exportName": "YaneuraOu_HalfKP",
+  "name": "YaneuraOu halfkp",
+  "author": "Yaneurao",
+  "requiresCrossOriginIsolation": true,
+  "licenses": [
+    { "subject": "YaneuraOu/水匠5", "spdx": "GPL-3.0", "file": "LICENSE.txt", "source": "https://github.com/yaneurao/YaneuraOu" }
+  ],
+  "options": [
+    { "name": "Threads", "type": "spin", "default": 4, "min": 1, "max": 1024 },
+    { "name": "FV_SCALE", "type": "spin", "default": 16, "min": 1, "max": 128 }
+  ],
+  "presets": [
+    {
+      "id": "yaneuraou-halfkp",
+      "displayName": "YaneuraOu halfkp",
+      "values": {
+        "Threads": 1,
+        "FV_SCALE": 24
+      },
+      "tags": ["game", "research"]
+    }
+  ]
+}

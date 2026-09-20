@@ -1,0 +1,36 @@
+{
+  "abi": "shogihome-wasm-engine/1",
+  "assetBaseURL": "https://<FIXME>/sunfish4/20260830.a88bdc9/",
+  "module": "sunfish4.js",
+  "moduleFormat": "esm",
+  "name": "Sunfish4",
+  "author": "Kubo, Ryosuke",
+  "requiresCrossOriginIsolation": true,
+  "licenses": [
+    {
+      "subject": "Sunfish4",
+      "spdx": "MIT",
+      "file": "LICENSE.txt",
+      "source": "https://github.com/sunfish-shogi/sunfish4/tree/v0.1.3"
+    }
+  ],
+  "dataFiles": [
+    { "url": "eval-3d547b7.bin", "path": "/eval.bin" }
+  ],
+  "options": [
+    { "name": "UseBook", "type": "check", "default": "false" },
+    { "name": "Snappy", "type": "check", "default": "true" },
+    { "name": "Threads", "type": "spin", "default": 1, "min": 1, "max": 4 },
+    { "name": "MarginMs", "type": "spin", "default": 500, "min": 0, "max": 2000 },
+    { "name": "MaxDepth", "type": "spin", "default": 64, "min": 1, "max": 64 },
+    { "name": "MultiPV", "type": "spin", "default": 1, "min": 1, "max": 10 }
+  ],
+  "presets": [
+    {
+      "id": "sunfish4-wasm-v1",
+      "displayName": "Sunfish4",
+      "values": {},
+      "tags": ["game", "research"]
+    }
+  ]
+}
