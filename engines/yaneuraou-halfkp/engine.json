@@ -4,8 +4,8 @@
   "module": "yaneuraou.halfkp.js",
   "moduleFormat": "umd",
   "exportName": "YaneuraOu_HalfKP",
-  "name": "YaneuraOu halfkp",
-  "author": "Yaneurao",
+  "name": "YaneuraOu Suisho5",
+  "author": "Yaneurao, Tayayan",
   "requiresCrossOriginIsolation": true,
   "licenses": [
     { "subject": "YaneuraOu/水匠5", "spdx": "GPL-3.0", "file": "LICENSE.txt", "source": "https://github.com/sunfish-shogi/YaneuraOu/tree/c1b80eaa09fe13d5f12b1599d1ae4d53c224de30" }
@@ -17,7 +17,7 @@
   "presets": [
     {
       "id": "yaneuraou-halfkp",
-      "displayName": "YaneuraOu halfkp",
+      "displayName": "やねうら王 水匠5",
       "values": {
         "Threads": 1,
         "FV_SCALE": 24
