@@ -5,6 +5,15 @@
   "engines": {
     "dirs": ["./engines"]
   },
+  "pwa": {
+    "id": "/shogihome-analysis/",
+    "name": "ShogiHome Analysis",
+    "shortName": "ShogiHome Analysis",
+    "description": "ShogiHome Web Analysis Edition",
+    "themeColor": "#5f8f5f",
+    "backgroundColor": "#2f4f4f",
+    "lang": "ja"
+  },
   "license": {
     "distribution": {
       "text": "ShogiHome Web Distribution — GPLv3",
