@@ -1,6 +1,6 @@
 {
   "abi": "shogihome-wasm-engine/1",
-  "assetBaseURL": "https://<FIXME>/sunfish4/20260830.a88bdc9/",
+  "assetBaseURL": "https://assets.shogihome.com/sunfish4/20260830.a88bdc9/",
   "module": "sunfish4.js",
   "moduleFormat": "esm",
   "name": "Sunfish4",

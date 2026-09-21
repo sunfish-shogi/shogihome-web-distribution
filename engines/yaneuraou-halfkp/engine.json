@@ -1,6 +1,6 @@
 {
   "abi": "shogihome-wasm-engine/1",
-  "assetBaseURL": "https://<FIXME>/yaneuraou/20260904.c1b80eaa/halfkp/",
+  "assetBaseURL": "https://assets.shogihome.com/yaneuraou/20260904.c1b80eaa/halfkp/",
   "module": "yaneuraou.halfkp.js",
   "moduleFormat": "umd",
   "exportName": "YaneuraOu_HalfKP",
