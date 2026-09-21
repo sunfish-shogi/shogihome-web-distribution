@@ -8,7 +8,7 @@
   "author": "Yaneurao",
   "requiresCrossOriginIsolation": true,
   "licenses": [
-    { "subject": "YaneuraOu/水匠5", "spdx": "GPL-3.0", "file": "LICENSE.txt", "source": "https://github.com/yaneurao/YaneuraOu" }
+    { "subject": "YaneuraOu/水匠5", "spdx": "GPL-3.0", "file": "LICENSE.txt", "source": "https://github.com/sunfish-shogi/YaneuraOu/tree/c1b80eaa09fe13d5f12b1599d1ae4d53c224de30" }
   ],
   "options": [
     { "name": "Threads", "type": "spin", "default": 4, "min": 1, "max": 1024 },
