@@ -76,6 +76,66 @@
         "FV_SCALE": 20
       },
       "tags": ["game", "research"]
+    },
+    {
+      "id": "yaneuraou-halfkp.noeval-hao-1k",
+      "displayName": "やねうら王 tanuki-Hao 1k",
+      "values": {
+        "Threads": 1,
+        "NodesLimit": 1000,
+        "USI_Hash": 32,
+        "FV_SCALE": 24
+      },
+      "tags": [],
+      "mobileGame": { "label": "Hao Lv.1" }
+    },
+    {
+      "id": "yaneuraou-halfkp.noeval-hao-3k",
+      "displayName": "やねうら王 tanuki-Hao 3k",
+      "values": {
+        "Threads": 1,
+        "NodesLimit": 3000,
+        "USI_Hash": 32,
+        "FV_SCALE": 24
+      },
+      "tags": [],
+      "mobileGame": { "label": "Hao Lv.2" }
+    },
+    {
+      "id": "yaneuraou-halfkp.noeval-hao-10k",
+      "displayName": "やねうら王 tanuki-Hao 10k",
+      "values": {
+        "Threads": 1,
+        "NodesLimit": 10000,
+        "USI_Hash": 32,
+        "FV_SCALE": 24
+      },
+      "tags": [],
+      "mobileGame": { "label": "Hao Lv.3" }
+    },
+    {
+      "id": "yaneuraou-halfkp.noeval-hao-30k",
+      "displayName": "やねうら王 tanuki-Hao 30k",
+      "values": {
+        "Threads": 1,
+        "NodesLimit": 30000,
+        "USI_Hash": 32,
+        "FV_SCALE": 24
+      },
+      "tags": [],
+      "mobileGame": { "label": "Hao Lv.4" }
+    },
+    {
+      "id": "yaneuraou-halfkp.noeval-hao-100k",
+      "displayName": "やねうら王 tanuki-Hao 100k",
+      "values": {
+        "Threads": 1,
+        "NodesLimit": 100000,
+        "USI_Hash": 32,
+        "FV_SCALE": 24
+      },
+      "tags": [],
+      "mobileGame": { "label": "Hao Lv.5" }
     }
   ]
 }

@@ -31,6 +31,45 @@
       "displayName": "Sunfish4",
       "values": {},
       "tags": ["game", "research"]
+    },
+    {
+      "id": "sunfish4-wasm-v1-d10",
+      "displayName": "Sunfish4 Depth-10",
+      "values": {
+        "UseBook": "false",
+        "Threads": 1,
+        "USI_Hash": 32,
+        "USI_Ponder": "false",
+        "MaxDepth": 10
+      },
+      "tags": [],
+      "mobileGame": { "label": "Sunfish Lv.6" }
+    },
+    {
+      "id": "sunfish4-wasm-v1-d12",
+      "displayName": "Sunfish4 Depth-12",
+      "values": {
+        "UseBook": "false",
+        "Threads": 1,
+        "USI_Hash": 32,
+        "USI_Ponder": "false",
+        "MaxDepth": 12
+      },
+      "tags": [],
+      "mobileGame": { "label": "Sunfish Lv.7" }
+    },
+    {
+      "id": "sunfish4-wasm-v1-d14",
+      "displayName": "Sunfish4 Depth-14",
+      "values": {
+        "UseBook": "false",
+        "Threads": 1,
+        "USI_Hash": 32,
+        "USI_Ponder": "false",
+        "MaxDepth": 14
+      },
+      "tags": [],
+      "mobileGame": { "label": "Sunfish Lv.8" }
     }
   ]
 }
