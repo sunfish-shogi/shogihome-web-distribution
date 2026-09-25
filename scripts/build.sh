@@ -11,5 +11,6 @@ cd "$SHOGIHOME_ROOT"
 
 echo "Build..."
 SHOGIHOME_BUILD_PROFILE=../profile.json npm run build -- --outDir $OUT_DIR
+node ./scripts/report-license.mjs $OUT_DIR/docs
 
 cp ../cloudflare/_headers $OUT_DIR/_headers
