@@ -1,4 +1,5 @@
-#!/bin/bash -eu
+#!/bin/bash
+set -eu
 for CMD_NAME in git npm; do
 	echo "Finding '$CMD_NAME'..."
 	command -v $CMD_NAME || {

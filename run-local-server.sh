@@ -1,4 +1,5 @@
-#!/bin/bash -eu
+#!/bin/bash
+set -eu
 cd "$(dirname "$0")"
 
 bash scripts/prerequisites.sh
