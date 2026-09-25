@@ -20,6 +20,6 @@
       "url": "https://github.com/sunfish-shogi/shogihome-web-distribution/blob/main/LICENSE",
       "sourceURL": "https://github.com/sunfish-shogi/shogihome-web-distribution"
     },
-    "thirdPartyURL": "./docs/third-party-licenses.html"
+    "thirdPartyURL": "https://analysis.shogihome.com/docs/third-party-licenses.html"
   }
 }
