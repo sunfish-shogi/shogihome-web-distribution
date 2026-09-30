@@ -6,6 +6,7 @@
   "exportName": "YaneuraOu_HalfKP_noeval",
   "name": "YaneuraOu tanuki-Hao",
   "author": "Yaneurao, nodchip",
+  "badge": "65MB",
   "requiresCrossOriginIsolation": true,
   "licenses": [
     { "subject": "YaneuraOu", "spdx": "GPL-3.0", "file": "LICENSE.txt", "source": "https://github.com/sunfish-shogi/YaneuraOu/tree/c1b80eaa09fe13d5f12b1599d1ae4d53c224de30" },

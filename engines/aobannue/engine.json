@@ -6,6 +6,7 @@
   "exportName": "YaneuraOu_HalfKP768_noeval",
   "name": "AobaNNUE",
   "author": "Yaneurao, Hiroshi Yamashita",
+  "badge": "193MB",
   "requiresCrossOriginIsolation": true,
   "licenses": [
     { "subject": "AobaNNUE", "spdx": "GPL-3.0", "file": "Copying.txt", "source": "https://github.com/sunfish-shogi/AobaNNUE" }

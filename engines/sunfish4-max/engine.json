@@ -5,6 +5,7 @@
   "moduleFormat": "esm",
   "name": "Sunfish4",
   "author": "Kubo, Ryosuke",
+  "badge": "47MB",
   "requiresCrossOriginIsolation": true,
   "licenses": [
     {

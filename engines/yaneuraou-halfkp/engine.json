@@ -6,6 +6,7 @@
   "exportName": "YaneuraOu_HalfKP",
   "name": "YaneuraOu Suisho5",
   "author": "Yaneurao, Tayayan",
+  "badge": "65MB",
   "requiresCrossOriginIsolation": true,
   "licenses": [
     { "subject": "YaneuraOu/水匠5", "spdx": "GPL-3.0", "file": "LICENSE.txt", "source": "https://github.com/sunfish-shogi/YaneuraOu/tree/c1b80eaa09fe13d5f12b1599d1ae4d53c224de30" }
@@ -72,66 +73,6 @@
         "FV_SCALE": 24
       },
       "tags": ["game", "research"]
-    },
-    {
-      "id": "yaneuraou-halfkp-1k",
-      "displayName": "やねうら王 水匠5 1k",
-      "values": {
-        "Threads": 1,
-        "NodesLimit": 1000,
-        "USI_Hash": 32,
-        "FV_SCALE": 24
-      },
-      "tags": [],
-      "mobileGame": { "label": "水匠 Lv.1" }
-    },
-    {
-      "id": "yaneuraou-halfkp-3k",
-      "displayName": "やねうら王 水匠5 3k",
-      "values": {
-        "Threads": 1,
-        "NodesLimit": 3000,
-        "USI_Hash": 32,
-        "FV_SCALE": 24
-      },
-      "tags": [],
-      "mobileGame": { "label": "水匠 Lv.2" }
-    },
-    {
-      "id": "yaneuraou-halfkp-10k",
-      "displayName": "やねうら王 水匠5 10k",
-      "values": {
-        "Threads": 1,
-        "NodesLimit": 10000,
-        "USI_Hash": 32,
-        "FV_SCALE": 24
-      },
-      "tags": [],
-      "mobileGame": { "label": "水匠 Lv.3" }
-    },
-    {
-      "id": "yaneuraou-halfkp-30k",
-      "displayName": "やねうら王 水匠5 30k",
-      "values": {
-        "Threads": 1,
-        "NodesLimit": 30000,
-        "USI_Hash": 32,
-        "FV_SCALE": 24
-      },
-      "tags": [],
-      "mobileGame": { "label": "水匠 Lv.4" }
-    },
-    {
-      "id": "yaneuraou-halfkp-100k",
-      "displayName": "やねうら王 水匠5 100k",
-      "values": {
-        "Threads": 1,
-        "NodesLimit": 100000,
-        "USI_Hash": 32,
-        "FV_SCALE": 24
-      },
-      "tags": [],
-      "mobileGame": { "label": "水匠 Lv.5" }
     }
   ]
 }
