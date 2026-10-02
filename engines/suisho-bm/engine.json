@@ -1,0 +1,55 @@
+{
+  "abi": "shogihome-wasm-engine/1",
+  "assetBaseURL": "https://assets.shogihome.com/suisho-bm/20261003.1689b4b/",
+  "module": "suisho-bm.js",
+  "moduleFormat": "esm",
+  "name": "Suisho-BM 1.0.0 32WASM",
+  "author": "yaneurao, tayayan",
+  "badge": "0.5MB",
+  "requiresCrossOriginIsolation": true,
+  "licenses": [
+    {
+      "spdx": "GPL-3.0-only",
+      "file": "LICENSE.txt",
+      "source": "https://github.com/sunfish-shogi/Suisho-BM/tree/1689b4b83b396e48ddeebc74bee9c88767654b55"
+    }
+  ],
+  "options": [
+    {
+      "name": "Threads",
+      "type": "spin",
+      "default": 1,
+      "min": 1,
+      "max": 4
+    },
+    {
+      "name": "USI_Hash",
+      "type": "spin",
+      "default": 128,
+      "min": 1,
+      "max": 512
+    },
+    {
+      "name": "HisshiFullWidth",
+      "type": "check",
+      "default": "false"
+    },
+    {
+      "name": "PvInterval",
+      "type": "spin",
+      "default": 1000,
+      "min": 0,
+      "max": 1000000
+    }
+  ],
+  "presets": [
+    {
+      "id": "suisho-bm-wasm-v1",
+      "displayName": "水匠BM (必至探索)",
+      "values": {},
+      "tags": [
+        "mate"
+      ]
+    }
+  ]
+}

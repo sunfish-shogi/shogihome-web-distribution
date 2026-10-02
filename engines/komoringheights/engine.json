@@ -1,0 +1,100 @@
+{
+  "abi": "shogihome-wasm-engine/1",
+  "assetBaseURL": "https://assets.shogihome.com/komoringheights/20261002.21b5b6d5/",
+  "module": "komoring-heights.js",
+  "moduleFormat": "esm",
+  "name": "KomoringHeights 1.1.0 32WASM",
+  "author": "yaneurao, komori-n",
+  "badge": "1MB",
+  "requiresCrossOriginIsolation": true,
+  "licenses": [
+    {
+      "spdx": "GPL-3.0-only",
+      "file": "LICENSE.txt",
+      "source": "https://github.com/sunfish-shogi/KomoringHeights/tree/21b5b6d5f9d8b4e065fa05cd148949e9de576ce4"
+    }
+  ],
+  "options": [
+    {
+      "name": "Threads",
+      "type": "spin",
+      "default": 1,
+      "min": 1,
+      "max": 4
+    },
+    {
+      "name": "MultiPV",
+      "type": "spin",
+      "default": 1,
+      "min": 1,
+      "max": 800
+    },
+    {
+      "name": "USI_Hash",
+      "type": "spin",
+      "default": 64,
+      "min": 1,
+      "max": 256
+    },
+    {
+      "name": "WriteDebugLog",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "GenerateAllLegalMoves",
+      "type": "check",
+      "default": "true"
+    },
+    {
+      "name": "NodesLimit",
+      "type": "spin",
+      "default": 0,
+      "min": 0,
+      "max": 9223372036854776000
+    },
+    {
+      "name": "PvInterval",
+      "type": "spin",
+      "default": 1000,
+      "min": 0,
+      "max": 1000000
+    },
+    {
+      "name": "RootIsAndNodeIfChecked",
+      "type": "check",
+      "default": "true"
+    },
+    {
+      "name": "ScoreCalculation",
+      "type": "combo",
+      "default": "Ponanza",
+      "vars": [
+        "None",
+        "Dn",
+        "MinusPn",
+        "Ponanza"
+      ]
+    },
+    {
+      "name": "PostSearchLevel",
+      "type": "combo",
+      "default": "MinLength",
+      "vars": [
+        "None",
+        "UpperBound",
+        "MinLength"
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "id": "komoring-heights-wasm-v1",
+      "displayName": "KomoringHeights",
+      "values": {},
+      "tags": [
+        "mate"
+      ]
+    }
+  ]
+}

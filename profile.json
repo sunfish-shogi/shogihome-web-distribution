@@ -1,6 +1,7 @@
 {
   "features": {
-    "mobileSearchTab": true
+    "mobileResearch": true,
+    "mobileMateSearch": true
   },
   "engines": {
     "dirs": ["./engines"]
