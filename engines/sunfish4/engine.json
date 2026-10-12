@@ -30,47 +30,42 @@
     {
       "id": "sunfish4-wasm-v1",
       "displayName": "Sunfish4",
-      "values": {},
-      "tags": ["game", "research"]
-    },
-    {
-      "id": "sunfish4-wasm-v1-d10",
-      "displayName": "Sunfish4 Depth-10",
       "values": {
-        "UseBook": "false",
-        "Threads": 1,
-        "USI_Hash": 32,
-        "USI_Ponder": "false",
-        "MaxDepth": 10
+        "UseBook": "false"
       },
-      "tags": [],
-      "mobileGame": { "label": "Sunfish Lv.6" }
-    },
-    {
-      "id": "sunfish4-wasm-v1-d12",
-      "displayName": "Sunfish4 Depth-12",
-      "values": {
-        "UseBook": "false",
-        "Threads": 1,
-        "USI_Hash": 32,
-        "USI_Ponder": "false",
-        "MaxDepth": 12
-      },
-      "tags": [],
-      "mobileGame": { "label": "Sunfish Lv.7" }
-    },
-    {
-      "id": "sunfish4-wasm-v1-d14",
-      "displayName": "Sunfish4 Depth-14",
-      "values": {
-        "UseBook": "false",
-        "Threads": 1,
-        "USI_Hash": 32,
-        "USI_Ponder": "false",
-        "MaxDepth": 14
-      },
-      "tags": [],
-      "mobileGame": { "label": "Sunfish Lv.8" }
+      "tags": ["game", "research"],
+      "mobileGame": {
+        "levels": [
+          {
+            "label": "Lv.1",
+            "values": { "USI_Hash": 8, "USI_Ponder": "false", "MaxDepth": 3 }
+          },
+          {
+            "label": "Lv.2",
+            "values": { "USI_Hash": 16, "USI_Ponder": "false", "MaxDepth": 5 }
+          },
+          {
+            "label": "Lv.3",
+            "values": { "USI_Hash": 32, "USI_Ponder": "false", "MaxDepth": 7 }
+          },
+          {
+            "label": "Lv.4",
+            "values": { "USI_Hash": 32, "USI_Ponder": "false", "MaxDepth": 9 }
+          },
+          {
+            "label": "Lv.5",
+            "values": { "USI_Hash": 32, "USI_Ponder": "false", "MaxDepth": 11 }
+          },
+          {
+            "label": "Lv.6",
+            "values": { "USI_Hash": 32, "USI_Ponder": "false", "MaxDepth": 13 }
+          },
+          {
+            "label": "Lv.7",
+            "values": { "USI_Hash": 32, "USI_Ponder": "false", "MaxDepth": 15 }
+          }
+        ]
+      }
     }
   ]
 }
