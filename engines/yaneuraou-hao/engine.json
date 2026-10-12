@@ -85,7 +85,7 @@
         "Threads": 1,
         "NodesLimit": 1000,
         "USI_Hash": 32,
-        "FV_SCALE": 24
+        "FV_SCALE": 20
       },
       "tags": [],
       "mobileGame": { "label": "Hao Lv.1" }
@@ -97,7 +97,7 @@
         "Threads": 1,
         "NodesLimit": 3000,
         "USI_Hash": 32,
-        "FV_SCALE": 24
+        "FV_SCALE": 20
       },
       "tags": [],
       "mobileGame": { "label": "Hao Lv.2" }
@@ -109,7 +109,7 @@
         "Threads": 1,
         "NodesLimit": 10000,
         "USI_Hash": 32,
-        "FV_SCALE": 24
+        "FV_SCALE": 20
       },
       "tags": [],
       "mobileGame": { "label": "Hao Lv.3" }
@@ -121,7 +121,7 @@
         "Threads": 1,
         "NodesLimit": 30000,
         "USI_Hash": 32,
-        "FV_SCALE": 24
+        "FV_SCALE": 20
       },
       "tags": [],
       "mobileGame": { "label": "Hao Lv.4" }
@@ -133,7 +133,7 @@
         "Threads": 1,
         "NodesLimit": 100000,
         "USI_Hash": 32,
-        "FV_SCALE": 24
+        "FV_SCALE": 20
       },
       "tags": [],
       "mobileGame": { "label": "Hao Lv.5" }
