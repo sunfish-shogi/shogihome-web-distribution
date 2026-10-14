@@ -5,7 +5,11 @@
   "moduleFormat": "umd",
   "exportName": "YaneuraOu_KP256",
   "name": "YaneuraOu KP256 1sec",
-  "author": "Yaneurao, nodchip",
+  "description": "やねうら王 1秒評価関数は 2026 年 7 月に公開された 1 秒だけ学習したエンジンです。",
+  "links": [
+    { "label": "1秒評価関数 公開します！(全体公開)", "url": "https://yaneurao.fanbox.cc/posts/12255550" }
+  ],
+  "author": "Yaneurao",
   "badge": "2MB",
   "requiresCrossOriginIsolation": true,
   "licenses": [

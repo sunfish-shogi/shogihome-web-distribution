@@ -4,6 +4,11 @@
   "module": "sunfish4.js",
   "moduleFormat": "esm",
   "name": "Sunfish4",
+  "description": "Sunfish4 は 2015 年から 2017 年にかけて開発されたエンジンです。アマチュア高段者レベルの強さがあります。",
+  "links": [
+    { "label": "ソースコード", "url": "https://github.com/sunfish-shogi/sunfish4" },
+    { "label": "PC版ダウンロード", "url": "https://github.com/sunfish-shogi/sunfish4/releases/tag/v0.1.3" }
+  ],
   "author": "Kubo, Ryosuke",
   "badge": "47MB",
   "requiresCrossOriginIsolation": true,
