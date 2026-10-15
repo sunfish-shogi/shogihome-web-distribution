@@ -11,6 +11,7 @@
   ],
   "author": "Kubo, Ryosuke",
   "badge": "47MB",
+  "banner": "banner.png",
   "requiresCrossOriginIsolation": true,
   "licenses": [
     {
