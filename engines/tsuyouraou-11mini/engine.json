@@ -15,7 +15,7 @@
   "requiresCrossOriginIsolation": true,
   "licenses": [
     { "subject": "YaneuraOu", "spdx": "GPL-3.0", "file": "LICENSE.txt", "source": "https://github.com/sunfish-shogi/YaneuraOu/tree/c1b80eaa09fe13d5f12b1599d1ae4d53c224de30" },
-    { "subject": "TsuyouraOu 11 micro", "spdx": "MIT", "file": "MIT.txt", "source": "https://yaneurao.fanbox.cc/posts/12761272"}
+    { "subject": "TsuyouraOu 11 mini", "spdx": "MIT", "file": "MIT.txt", "source": "https://yaneurao.fanbox.cc/posts/12761272"}
   ],
   "dataFiles": [
     { "url": "nn.bin", "path": "/eval/nn.bin" },
